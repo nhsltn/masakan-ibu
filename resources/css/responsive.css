@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1200px) {
+    .top-container {
+        width: 100%;
+        padding: 0 2%;
+        margin-left: 2%; }
+    .navbar { padding: 0 2%; }
+    .tagline { padding-top: 2%; }
+    .steps-box:last-child { padding-top: 0;}
+    .works-step p { padding-top: 0; }
+    .pricing-section { padding: 7% 2%; }
+    .card-grid:first-child {  margin-left: 0; }
+    .bulan { font-size: 90%;}
+    .darimana { padding-top: 27px;  }
+    .subscribeemail { padding-top: 30px; }
+}
+
+/* Tablet - Dekstop Jadul Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {font-size: 90%}
+    .testimoni {font-size: 80%;}
+    .kota {padding: 60px 20px;}
+    .pricing-section {font-size: 80%;}
+    ::placeholder {font-size: 75%}
+    ::-ms-input-placeholder {font-size: 75%}
+}
+
+/* HP Kekinian - Tablet Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {font-size: 80%;}
+    .nav-link {padding-top: 20px;}
+    .sticky { padding: 5px 2% 0 2%; }
+    nav .navbar-nav li a {width: 20%;}
+    .top-container {position: relative; top: 30%;}
+    .feature-box {margin-bottom: 0; margin-top: 0}
+    .steps-box:first-child {text-align: center}
+    .works-step p {padding-top: 9px;}
+    .card {text-align: center;}
+    .pricing-section {font-size: 100%;}
+    .firstname {margin-bottom: 10px;}
+    .kecamatan, .kodepos {padding-left: 15px; }
+    .darimana {padding-bottom: 10px;}
+    .footernav {padding-bottom: 10px;}
+}
+
+/* HP Jadul Small phones to small tablets: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+ 
+}
+
